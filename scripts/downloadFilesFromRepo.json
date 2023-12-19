@@ -38,24 +38,25 @@
         },
         {
             "files": [
-                ".github/workflows/Copy_Secrets.yml"
-            ],
-            "local_dir": "../.github/workflows",
-            "user": "gendloop",
-            "repo": "copy-secrets",
-            "branch": "main",
-            "is_private": false,
-            "token": ""
-        },
-        {
-            "files": [
                 "GitHubActions/FUNDING.yml"
             ],
             "local_dir": "../.github",
             "user": "gendloop",
             "repo": "Tools",
             "branch": "main",
-            "is_private": false,
+            "is_private": true,
+            "token": ""
+        },
+        {
+            "files": [
+                "Standardization/.editorconfig",
+                "Standardization/.markdownlint.json"
+            ],
+            "local_dir": "..",
+            "user": "gendloop",
+            "repo": "Tools",
+            "branch": "main",
+            "is_private": true,
             "token": ""
         }
     ]
